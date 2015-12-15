@@ -1,16 +1,22 @@
 package models
 
 type Company struct {
-	Name      string
-	WebSite   string
+	Name    string
+	WebSite string
 }
 
 type Person struct {
 	FirstName string
 	LastName  string
 	NickName  string
-	Companies   []Company //บุคคล 1 คนอาจมีหลายบริษัท
+	Companies []Company //บุคคล 1 คนอาจมีหลายบริษัท
 	Title     string
 	Mobile    string
 	Email     string
+}
+
+type Operator struct {
+	Person
+	Vehicle
+	//RoutePlan
 }
