@@ -1,10 +1,8 @@
 package models
 
-type Item struct {
-	ID       int
-	Name     int
-	BaseUnit Unit // BaseUnit ratio is always = 1
-	StdPrice float32
+type Category struct {
+	Name   string
+	Parent *Category
 }
 
 type Unit int
@@ -28,11 +26,6 @@ type ItemUnit struct {
 	Item
 	Unit
 	Ratio int
-}
-
-type Category struct {
-	Name   string
-	Parent *Category
 }
 
 type ItemLoc struct {

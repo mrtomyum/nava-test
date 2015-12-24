@@ -48,7 +48,7 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="Go 1.5.2" project-jdk-type="Go SDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" default="false" assert-keyword="false" jdk-15="false" project-jdk-name="Go 1.5.2" project-jdk-type="Go SDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
